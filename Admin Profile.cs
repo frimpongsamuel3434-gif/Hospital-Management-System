@@ -110,7 +110,7 @@ namespace HealthCare_Plus
             {
                 int loggedInAdminID = GetLoggedInAdminID();
 
-                string connectionString = "Server=localhost;Database=healthcare_plus;User Id=root;Password=Thamindu4420#;";
+                string connectionString = "Server=localhost;Database=healthcare_plus;User Id=root;Password=Sammy3434;";
                 using (MySqlConnection connection = new MySqlConnection(connectionString))
                 {
                     connection.Open();
@@ -144,7 +144,7 @@ namespace HealthCare_Plus
             {
                 int loggedInAdminID = GetLoggedInAdminID();
 
-                string connectionString = "Server=localhost;Database=healthcare_plus;User Id=root;Password=Thamindu4420#;";
+                string connectionString = "Server=localhost;Database=healthcare_plus;User Id=root;Password=Sammy3434;";
                 using (MySqlConnection connection = new MySqlConnection(connectionString))
                 {
                     connection.Open();
@@ -245,6 +245,7 @@ namespace HealthCare_Plus
 }
 
     
+
 
 
 
